@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(240, 228, 204);
+}
+
+.header {
+    background-color: #1a8864;
+    position: relative;
+    display: flex;
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, .3);
+    z-index: 1000;
+}
+
+.logo {
+    color: white;
+    padding: 20px;
+    font-size: 35px;
+    font-family: 'Gaegu', cursive;
+    position: relative;
+    display: inline-block;
+}
+
+.scoreboard {
+    font-size: 35px;
+}
+
+/* Free Vector Art by <a href="https://www.vecteezy.com">Vecteezy</a> */
+
+.score {
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    font-family: 'Gaegu', cursive;
+    position: relative;
+    display: inline-block;
+    margin-left: auto;
+}
+
+.instructions {
+    background-image: url("../images/bg.svg");
+    width: 100%;
+    background-size: cover;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Gaegu', cursive;
+    text-transform: uppercase;
+    padding: 10%;
+    opacity: 0.6;
+}
+
+.all-items {
+    position: relative;
+    width: inherit;
+    text-align: center;
+}
+
+.item {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+    background-color: red;
+    margin: 20px;
+}

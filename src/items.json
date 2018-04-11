@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "image": "../images/c1.svg",
+        "name": "Trailer"
+    },
+    {
+        "id": 2,
+        "image": "./images/c2-01.svg",
+        "name": "Camping"
+    },
+    {
+        "id": 3,
+        "image": "./images/c3-01.svg",
+        "name": "Slingshot"
+    },
+    {
+        "id": 4,
+        "image": "./images/c4-01.svg",
+        "name": "Utensils"
+    },
+    {
+        "id": 5,
+        "image": "./images/c5-01.svg",
+        "name": "BBQ"
+    },
+    {
+        "id": 6,
+        "image": "./images/c6-01.svg",
+        "name": "Hatchet"
+    },
+    {
+        "id": 7,
+        "image": "./images/c7-01.svg",
+        "name": "Match"
+    },
+    {
+        "id": 8,
+        "image": "./images/c8-01.svg",
+        "name": "Knife"
+    },
+    {
+        "id": 9,
+        "image": "./images/c9-01.svg",
+        "name": "Lantern"
+    },
+    {
+        "id": 10,
+        "image": "./images/c10-01.svg",
+        "name": "Trees"
+    },
+    {
+        "id": 11,
+        "image": "./images/c11-01.svg",
+        "name": "Backpack"
+    },
+    {
+        "id": 12,
+        "image": "./images/c12-01.svg",
+        "name": "Swiss Knife"
+    }
+]
