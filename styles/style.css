@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(240, 228, 204);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:focus {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    background-color: rgb(26, 136, 100);
+    position: relative;
+    display: flex;
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, .3);
+    z-index: 1000;
+}
+
+.logo {
+    color: white;
+    padding: 20px;
+    font-size: 35px;
+    font-family: 'Gaegu', cursive;
+    position: relative;
+    display: inline-block;
+}
+
+.scoreboard {
+    font-size: 35px;
+}
+
+.score {
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    font-family: 'Gaegu', cursive;
+    position: relative;
+    display: inline-block;
+    margin-left: auto;
+}
+
+.instructions {
+    background-image: url("../images/bg.svg");
+    width: 100%;
+    background-size: cover;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Gaegu', cursive;
+    text-transform: uppercase;
+    padding: 10%;
+    opacity: 0.8;
+}
+
+.all-items {
+    position: relative;
+    width: inherit;
+    text-align: center;
+}
+
+.item {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    margin: 25px;
+    width: 20%;
+    background-color: white;
+    transform: scale(.8);
+    transition: .3s;
+    border-radius: 10%;
+    border: 3pt solid rgb(26, 136, 100);
+}
+
+.item:hover {
+    box-shadow: 6px 8px 12px 0px rgba(0, 0, 0, .2);
+    transform: scale(.9);
+    cursor: pointer;
+}
+
+.image {
+    width: 100%;
+}
+
+.footer {
+    padding: 10px;
+    background-color: rgb(228, 217, 195);
+    color: white;
+    text-align: right;
+}
