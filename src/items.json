@@ -1,62 +1,74 @@
 [
     {
         "id": 1,
-        "image": "../images/c1.svg",
-        "name": "Trailer"
+        "image": "./images/c1.svg",
+        "name": "Trailer",
+        "clicked": false
     },
     {
         "id": 2,
         "image": "./images/c2-01.svg",
-        "name": "Camping"
+        "name": "Camping",
+        "clicked": false
     },
     {
         "id": 3,
         "image": "./images/c3-01.svg",
-        "name": "Slingshot"
+        "name": "Slingshot",
+        "clicked": false
     },
     {
         "id": 4,
         "image": "./images/c4-01.svg",
-        "name": "Utensils"
+        "name": "Utensils",
+        "clicked": false
     },
     {
         "id": 5,
         "image": "./images/c5-01.svg",
-        "name": "BBQ"
+        "name": "BBQ",
+        "clicked": false
     },
     {
         "id": 6,
         "image": "./images/c6-01.svg",
-        "name": "Hatchet"
+        "name": "Hatchet",
+        "clicked": false
     },
     {
         "id": 7,
         "image": "./images/c7-01.svg",
-        "name": "Match"
+        "name": "Match",
+        "clicked": false
     },
     {
         "id": 8,
         "image": "./images/c8-01.svg",
-        "name": "Knife"
+        "name": "Knife",
+        "clicked": false
     },
     {
         "id": 9,
         "image": "./images/c9-01.svg",
-        "name": "Lantern"
+        "name": "Lantern",
+        "clicked": false
     },
     {
         "id": 10,
         "image": "./images/c10-01.svg",
-        "name": "Trees"
+        "name": "Trees",
+        "clicked": false
     },
     {
         "id": 11,
         "image": "./images/c11-01.svg",
-        "name": "Backpack"
+        "name": "Backpack",
+        "clicked": false
     },
     {
         "id": 12,
         "image": "./images/c12-01.svg",
-        "name": "Swiss Knife"
+        "name": "Swiss Knife",
+        "clicked": false
     }
 ]

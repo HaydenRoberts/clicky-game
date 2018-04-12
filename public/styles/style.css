@@ -3,7 +3,7 @@ body {
 }
 
 .header {
-    background-color: #1a8864;
+    background-color: rgb(26, 136, 100);
     position: relative;
     display: flex;
     box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, .3);
@@ -44,7 +44,7 @@ body {
     font-family: 'Gaegu', cursive;
     text-transform: uppercase;
     padding: 10%;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 .all-items {
@@ -57,7 +57,21 @@ body {
     position: relative;
     text-align: center;
     display: inline-block;
-    padding: 15px;
-    background-color: red;
-    margin: 20px;
+    margin: 25px;
+    width: 20%;
+    background-color: white;
+    transform: scale(.8);
+    transition: .3s;
+    border-radius: 10%;
+    border: 3pt solid rgb(26, 136, 100);
+}
+
+.item:hover {
+    box-shadow: 6px 8px 12px 0px rgba(0, 0, 0, .2);
+    transform: scale(.9);
+    cursor: pointer;
+}
+
+.image {
+    width: 100%;
 }
