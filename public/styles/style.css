@@ -43,8 +43,6 @@ a:focus {
     font-size: 35px;
 }
 
-/* Free Vector Art by <a href="https://www.vecteezy.com">Vecteezy</a> */
-
 .score {
     color: white;
     padding: 20px;
@@ -94,4 +92,11 @@ a:focus {
 
 .image {
     width: 100%;
+}
+
+.footer {
+    padding: 10px;
+    background-color: rgb(228, 217, 195);
+    color: white;
+    text-align: right;
 }

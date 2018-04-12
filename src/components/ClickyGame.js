@@ -3,6 +3,7 @@ import Header from "./Header.js"
 import TopBody from "./TopBody";
 import Items from "./Items";
 import items from "../items.json";
+import Footer from "./Footer";
 
 class ClickyGame extends Component {
     state = {
@@ -86,6 +87,7 @@ class ClickyGame extends Component {
                         />
                     ))}
                 </div>
+                <Footer />
             </div>
         )
     }
