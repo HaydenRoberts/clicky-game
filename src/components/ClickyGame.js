@@ -12,7 +12,9 @@ class ClickyGame extends Component {
     };
 
     componentDidMount() {
-
+        this.setState({
+         items: this.itemShuffle(this.state.items)  
+        })
     }
 
     itemShuffle = (array) => {
